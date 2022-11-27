@@ -1,0 +1,11 @@
+{
+	"name": "test-ci",
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"check": "node "
+	},
+	"devDependencies": {
+		"spcolor": "^0.0.1"
+	}
+}
