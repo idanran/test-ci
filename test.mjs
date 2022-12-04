@@ -1,4 +1,3 @@
-import { getColorSupport } from 'spcolor'
 import { env } from 'node:process'
 
 function code(open, close) {
@@ -39,7 +38,5 @@ function rgb24(str, color) {
 }
 
 console.log(rgb24('this is a message', 0x6C7753))
-
-console.log(getColorSupport())
 
 console.log(env)
